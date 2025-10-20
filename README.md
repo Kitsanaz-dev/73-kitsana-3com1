@@ -1,32 +1,40 @@
-# Microprocessor vs Microcontroller
+# ⚙️ ໄມໂຄຣໂປຣເຊດເຊີ (Microprocessor) vs ໄມໂຄຣຄອນໂທຣເລີ (Microcontroller)
 
-## 🧠 Microprocessor
-- **Composition:** Contains only a **Central Processing Unit (CPU)**.  
-- **Function:** Optimized for **general-purpose, demanding tasks** requiring high performance.  
-- **Components:** Requires **external components** like RAM, ROM, and I/O to function as a complete system.  
-- **Applications:** Used in **desktop computers, servers, and mobile devices**.  
-- **Power & Cost:** Consumes **more energy** and is **more expensive**, as it’s a robust and powerful component.  
-
-## ⚙️ Microcontroller
-- **Composition:** Contains a **CPU, RAM, ROM, and I/O ports** all on a single chip.  
-- **Function:** Designed to perform **specific, dedicated tasks** within an embedded system.  
-- **Components:** All necessary components are **integrated internally**, requiring fewer external connections.  
-- **Applications:** Found in **household appliances, medical devices, automotive systems, and industrial automation**.  
-- **Power & Cost:** Uses **very little energy**, is **cost-effective**, and operates at **lower speeds** suitable for its dedicated tasks.  
+![Microprocessor vs Microcontroller](./mcpandmcc.png)
 
 ---
 
-### 📘 Summary Table
+## 🧠 ໄມໂຄຣໂປຣເຊດເຊີ (Microprocessor)
+
+- **ອົງປະກອບ:** ປະກອບມີພຽງແຕ່ຫົວປະມວນຜົນກາງ (CPU) ເທົ່ານັ້ນ  
+- **ໜ້າທີ່:** ຖືກອອກແບບມາສຳລັບວຽກງານທົ່ວໄປທີ່ຕ້ອງການປະສິດທິພາບສູງ  
+- **ສ່ວນປະກອບ:** ຕ້ອງການອຸປະກອນເສີມພາຍນອກເຊັ່ນ RAM, ROM, ແລະ I/O ເພື່ອເຮັດວຽກເປັນລະບົບ  
+- **ການນຳໃຊ້:** ຄອມພິວເຕີໂຕະ, ເຊີເວີ, ແລະອຸປະກອນມືຖື  
+- **ພະລັງງານ ແລະ ລາຄາ:** ໃຊ້ພະລັງງານຫຼາຍ ແລະ ມີລາຄາແພງເນື່ອງຈາກເປັນອົງປະກອບທີ່ມີປະສິດທິພາບສູງ  
+
+---
+
+## ⚙️ ໄມໂຄຣຄອນໂທຣເລີ (Microcontroller)
+
+- **ອົງປະກອບ:** ປະກອບມີ CPU, RAM, ROM, ແລະພອດ I/O ທັງໝົດຢູ່ໃນຊິບດຽວ  
+- **ໜ້າທີ່:** ອອກແບບເພື່ອປະຕິບັດວຽກງານສະເພາະໃນລະບົບຝັງຕົວ  
+- **ສ່ວນປະກອບ:** ອົງປະກອບທີ່ຈຳເປັນທັງໝົດຖືກລວມໄວ້ພາຍໃນ ແລະ ຕ້ອງການການເຊື່ອມຕໍ່ພາຍນອກໜ້ອຍລົງ  
+- **ການນຳໃຊ້:** ເຄື່ອງໃຊ້ໃນເຮືອນ, ອຸປະກອນທາງການແພດ, ລະບົບຍານພາຫະນະ, ແລະອຸດສາຫະກຳອັດຕະໂນມັດ  
+- **ພະລັງງານ ແລະ ລາຄາ:** ໃຊ້ພະລັງງານນ້ອຍ, ປະຫຍັດຄ່າໃຊ້ຈ່າຍ, ແລະເຮັດວຽກດ້ວຍຄວາມໄວຕ່ຳເຫມາະສົມກັບວຽກງານສະເພາະ  
+
+---
+
+## 📘 Summary (English)
 
 | Feature | Microprocessor | Microcontroller |
 |----------|----------------|----------------|
 | **Composition** | Only CPU | CPU + RAM + ROM + I/O |
-| **Function** | General-purpose, high-performance tasks | Specific, dedicated control tasks |
-| **Components** | Requires external RAM/ROM/I/O | All components on a single chip |
-| **Applications** | PCs, servers, smartphones | Appliances, vehicles, embedded devices |
+| **Function** | General-purpose, high-performance tasks | Dedicated control tasks |
+| **Components** | Needs external memory & I/O | All built-in on single chip |
+| **Applications** | PCs, servers, mobile devices | Appliances, cars, IoT devices |
 | **Power & Cost** | High power, expensive | Low power, cost-effective |
 
 ---
 
 ### 🧩 Conclusion
-Microprocessors are ideal for **complex computing systems**, while microcontrollers are best suited for **embedded systems** performing **specific control-oriented tasks**.
+Microprocessors are suited for **complex computing systems**, while microcontrollers are ideal for **specific embedded control applications**.
